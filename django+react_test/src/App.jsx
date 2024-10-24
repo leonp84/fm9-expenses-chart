@@ -80,8 +80,6 @@ function SingleDayInput({ index, day, amount, setVarDay }) {
 function App() {
 	let [varDay, setVarDay] = useState([150, 200, 125, 50, 200, 70, 185]);
 	let weekdays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
-	console.log('#########');
-	console.log(varDay);
 	return (
 		<>
 			<main className="d-flex flex-column align-items-center justify-content-center vh-100">
