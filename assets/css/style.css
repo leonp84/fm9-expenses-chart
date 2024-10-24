@@ -66,6 +66,29 @@ body {
 	color: #fffbf6;
 }
 
+.spending-section {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	padding: 25px;
+	height: 511px;
+	width: 540px;
+	border-radius: 20px;
+	background-color: #fffbf6;
+	color: 382314;
+}
+
+.spending-graph {
+	background-color: aquamarine;
+	height: 380px;
+}
+
+.spending-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 footer {
 	width: 100%;
 	display: flex;
